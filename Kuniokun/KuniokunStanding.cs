@@ -433,7 +433,60 @@ namespace Introduction_to_Programming
             }
             Console.WriteLine();
 
-
+            // row 16
+            for (int i = 0; i < 22; i++)
+            {
+                Console.Write("000");
+                if (i > 1 && i < 3)
+                {
+                    Black();
+                }
+                else if (i > 2 && i < 6)
+                {
+                    Skin();
+                }
+                else if (i > 5 && i < 7)
+                {
+                    Black();
+                }
+                else if (i > 6 && i < 9)
+                {
+                    White();
+                }
+                else if (i > 8 && i < 10)
+                {
+                    Black();
+                }
+                else if (i > 9 && i < 13)
+                {
+                    White();
+                }
+                else if (i > 12 && i < 16)
+                {
+                    Black();
+                }
+                else if (i > 15 && i < 17)
+                {
+                    White();
+                }
+                else if (i > 16 && i < 19)
+                {
+                    Black();
+                }
+                else if (i > 18 && i < 20)
+                {
+                    White();
+                }
+                else if (i > 19 && i < 21)
+                {
+                    Black();
+                }
+                else if (i > 20)
+                {
+                    Gray();
+                }
+            }
+            Console.WriteLine();
 
 
 
